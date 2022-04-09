@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test | Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+
+            <div class="header__logo">
+                <a href="index.html">
+                    <i class="fas fa-brain"></i>
+                </a>
+            </div>
+
+        </div>
+        
+    </header>
+
+        <main class="contenedor">
+
+            <h2 class="formulario__heading">Test de <span>Prueba</span></h2>
+
+            <form id="formulario" class="formulario contenedor">
+
+                <fieldset class="formulario__fieldset">
+                    <legend class="formulario__legend">-- Añade nuevas tareas --</legend>
+            
+                    <div class="campo">
+                        <label class="campo__label" for="tarea">Tarea:</label>
+                        <textarea id="tarea" class="campo__gestor" type="text">
+                        </textarea>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Campo Vacio</small><!--Prueba de etiqueta-->
+                    </div>
+
+                    <input class="formulario__submit" type="submit" name="boton" id="boton" value="Enviar">
+                </fieldset>
+
+
+            </form>
+
+        </main>
+
+    <footer class="footer">
+        <p class="footer__copy">Todos los derechos reservados</p>
+    </footer>
+    
+
+    <!--Script-->
+    <script src="build/js/app.js"></script>
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/b45f192329.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
